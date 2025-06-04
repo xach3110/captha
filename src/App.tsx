@@ -45,7 +45,7 @@ useEffect(() => {
           </div>
         ) : (
           <div className="card card-white">
-            <h2>☁️ ckc.ca</h2>
+            <img src="/logo.png" alt="cloudflare" className="logo" />
             <p className="small">
               Cloudflare is built on an intelligent, secure, high-speed global network. We help businesses regain
               control of their technology and security environments by reducing complexity and improving visibility
@@ -69,7 +69,7 @@ useEffect(() => {
               <button className="btn-outline" onClick={() => window.location.reload()}>Retry</button>
             </div>
             <p className="small" style={{ marginTop: '1.5rem' }}>
-              <b>ckc.ca</b> needs to review the security of your connection before proceeding.
+              <b>CloudFlare</b> needs to review the security of your connection before proceeding.
             </p>
           </div>
         )}
